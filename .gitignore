@@ -1,0 +1,32 @@
+# Backend
+tramplin-backend/venv/
+tramplin-backend/__pycache__/
+tramplin-backend/*.pyc
+tramplin-backend/.env
+tramplin-backend/.pytest_cache/
+tramplin-backend/.mypy_cache/
+tramplin-backend/.coverage
+tramplin-backend/htmlcov/
+
+# Frontend
+tramplin-frontend/node_modules/
+tramplin-frontend/dist/
+tramplin-frontend/.env
+tramplin-frontend/.vite/
+tramplin-frontend/.cache/
+tramplin-frontend/build/
+tramplin-frontend/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
