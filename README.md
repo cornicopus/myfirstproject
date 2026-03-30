@@ -35,17 +35,17 @@ python -m venv venv
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # Mac/Linux
 pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8000```
 
 ### Фронтенд
 ```bash
 cd tramplin-frontend
 npm install
-npm run dev
+npm run dev```
 
 ### База данных
 ```bash
 psql -U postgres -c "CREATE DATABASE tramplin;"
 
 cd tramplin-backend
-python -m app.utils.seed_full_data
+python -m app.utils.seed_full_data```
